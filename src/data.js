@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "React Bookmarks",
+    subtitle: "Uses LocalStorage",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple app to save bookmarks using LocalStorage",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://pedantic-mccarthy-430fc2.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "React Instagram",
+    subtitle: "React and Redux",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A clone of Instgram using React and Redux",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://keen-torvalds-a7807f.netlify.app/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "React Tabs",
+    subtitle: "React w/ Router",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Simple tabbed navigation using React and React Router",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://wonderful-bohr-3cd9fb.netlify.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "React Markdown",
+    subtitle: "Markdown Editor in React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "React, React Hooks",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://zealous-kilby-f1bcc7.netlify.app/",
   },
 ];
 
