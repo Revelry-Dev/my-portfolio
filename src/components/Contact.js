@@ -29,6 +29,7 @@ export default function Contact() {
       <div className="container px-5 md:w-2/3 py-10 mx-auto flex sm:flex-nowrap flex-wrap text-center">
        
         <form
+        onSubmit={handleSubmit}
           netlify
           name="contact"
           className="lg:w-3/3 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
