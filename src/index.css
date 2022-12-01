@@ -46,7 +46,8 @@ div.header div{flex: 0 0 calc(50% - 10px);
 	
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#121213", GradientType=1 );}
 	
-.block:hover span, .block:hover a {color: white;}
+.block:hover a {color: white;}
+.block:hover span {color: #22c1c3}
 
 .block a {color: rgba(45,131,253,1)}
 
