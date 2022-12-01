@@ -16,6 +16,10 @@ export const blocks = [
 	  link: "https://fosstodon.org/@ajemi",
 	},
 	{
+	  title: "Revelry.dev",
+	  link: "https://revelry.dev"
+	},
+	{
 	  title: "Github",
 	  link: "https://github.com/codente"
 	}
