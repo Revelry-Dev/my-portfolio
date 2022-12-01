@@ -1,3 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+background: rgb(34,193,195);
+background: linear-gradient(87deg, rgba(34,193,195,1) 0%, rgba(45,131,253,1) 100%);
+ font: 20px/150% "DM Sans", Helvetica, sans-serif;
+ display: flex;
+ justify-content: center;
+ flex: 1 1 25%;
+}
+h1 {text-shadow: 1px 1px #fff;}
+div {margin: 1em;}
+div.header {display: flex;
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column;
+	
+}
+div.header div{flex: 0 0 calc(50% - 10px);
+}
+
+.block-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.block-list .block {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex-basis: 100%;
+    flex: 1;
+ 	justify-content: center;
+}
+
+.block {border: 2px solid #fff; margin: 1em; border-radius: 5px; padding: 1em; text-align: center; box-shadow: 1px 1px 1px #000}
+
+.block:hover {background: hsla(208, 33%, 21%, 1);
+	
+	background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(240, 3%, 7%, 1) 100%);
+	
+	background: -moz-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(240, 3%, 7%, 1) 100%);
+	
+	background: -webkit-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(240, 3%, 7%, 1) 100%);
+	
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#121213", GradientType=1 );}
+	
+.block:hover a {color: white;}
+
+.block a {color: rgba(45,131,253,1)}
+
+
+/* dm-sans-regular - latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/dm-sans-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+	   url('./fonts/dm-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	   url('./fonts/dm-sans-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('./fonts/dm-sans-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+	   url('./fonts/dm-sans-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('./fonts/dm-sans-v11-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
+}
+/* dm-sans-700 - latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/dm-sans-v11-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+	   url('./fonts/dm-sans-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	   url('./fonts/dm-sans-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('./fonts/dm-sans-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+	   url('./fonts/dm-sans-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('./fonts/dm-sans-v11-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
+}
