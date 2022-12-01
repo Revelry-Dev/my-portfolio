@@ -13,7 +13,7 @@ export default function App() {
   
   const BlockList = blocks.map((block) =>
   
-  <Block title={block.title} url={block.link}/>
+  <Block title={block.title} url={block.link} desc={block.desc}/>
   );
   
   return (
